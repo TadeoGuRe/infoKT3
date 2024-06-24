@@ -1,0 +1,126 @@
+/*COPIA DESDE AQUÍ */
+body {
+    background: rgb(0,38,61);
+    background: linear-gradient(90deg, rgba(0,38,61,1) 0%, rgba(0,113,143,1) 100%);
+    color: white;
+    font-family: "Lora", serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja1 {
+    display: flex;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+}
+
+.nombre_logo {
+    font-family: "Abril Fatface", serif;
+    margin: 0 0 0 10px;
+    font-size: 50px;
+}
+
+.caja2 {
+    background-color: rgb(25, 25, 25);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px;
+    width: 100%;
+    margin: 0 18px 0 18px;
+}
+
+.caja3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.link_superior {
+    font-size: 35px;
+}
+/*FINALIZA ACÁ*/
+.informacion_curso {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0 0 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.caja4 {
+    margin: 15px 0 10px 15px;
+}
+
+.maestro {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: 40px 30px 10px 0;
+}
+
+.animalito {
+    height: 250px;
+    width: 250px;
+}
+
+.nombre_maestro {
+    font-size: 20px;
+    text-align: center;
+}
+
+.clases_curso {
+    margin: 40px 25px 40px 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.leccion {
+    background-color: rgb(8, 33, 58);
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin: 2.5%;
+}
+
+.leccion p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.leccion a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

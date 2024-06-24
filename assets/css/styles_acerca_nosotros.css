@@ -1,0 +1,98 @@
+/*COPIA DESDE AQUÍ */
+body {
+    background: rgb(0,38,61);
+    background: linear-gradient(90deg, rgba(0,38,61,1) 0%, rgba(0,113,143,1) 100%);
+    color: white;
+    font-family: "Lora", serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja1 {
+    display: flex;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+}
+
+.nombre_logo {
+    font-family: "Abril Fatface", serif;
+    margin: 0 0 0 10px;
+    font-size: 50px;
+}
+
+.caja2 {
+    background-color: rgb(25, 25, 25);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px;
+    width: 100%;
+    margin: 0 18px 0 18px;
+}
+
+.caja3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.link_superior {
+    font-size: 35px;
+}
+/*FINALIZA ACÁ*/
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(25, 25, 25);
+    margin: 40px 0 0 0;
+    padding: 10px;
+}
+
+.autor {
+    background-color: rgb(8, 33, 58);
+    margin: 25px 30px;
+    display: flex;
+    border-radius: 6px;
+}
+
+.autor img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px 15px;
+}
+
+.informacion {
+    margin: 20px 15px;
+}
+
+.informacion dt, .informacion dd {
+ font-size: 35px;
+}
+
+footer {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}

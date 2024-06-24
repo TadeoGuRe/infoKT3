@@ -1,0 +1,90 @@
+body {
+    background: rgb(0,38,61);
+    background: linear-gradient(90deg, rgba(0,38,61,1) 0%, rgba(0,113,143,1) 100%);
+    color: white;
+    font-family: "Lora", serif;
+    margin: 0;
+}
+
+/* header */
+.imagen {
+    width: 70px;
+    height: 70px;
+}
+
+.nombre_logo {
+    font-family: "Abril Fatface", serif;
+    margin: 0 0 0 10px;
+    font-size: 50px;
+}
+
+.caja1 {
+    display: flex;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingresar {
+    margin: 0 10px 0 0;
+    text-transform: uppercase;
+    background-color: rgb(6, 47, 66);
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+/* main */
+.descripcion {
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+span {
+    color: rgb(6, 47, 66)
+}
+
+.cursos_principales, .cursos_complementarios { 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.curso_principal, .curso_complementario {
+    background-color: rgb(6, 47, 66);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 15%;
+    margin: 0 20px 0 20px;
+}
+
+.cursos_complementarios {
+    margin-top: 30px;
+}
+
+.integrantes_equipos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.integrante {
+    height: 400px;
+    width: 20%;
+    background-color: rgb(8, 33, 58);
+    margin: 0 10px 20px 10px;
+    border-radius: 5px;
+}
+
+.adriel, .josue, .brian, .tadeo {
+    margin: 10% 0 0 10%;
+    width: 80%;
+    height: 65%;
+}
