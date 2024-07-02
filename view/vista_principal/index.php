@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <!-- Hoja de estilo -->
-    <link rel="stylesheet" href="../../assets/css/styles_vista_principal.css?v=1.2">
+    <link rel="stylesheet" href="../../assets/css/styles_vista_principal.css?v=1.3">
     <title>Vista principal</title>
 </head>
 
@@ -25,8 +25,8 @@
         </div>
         <div class="caja2">
             <nav class="caja3">
-                <a href="" class="link_superior" title="Ruta de aprendizaje">Ruta de aprendizaje</a>
-                <a href="" class="link_superior" title="Cursos opcionales">Cursos opcionales</a>
+                <a href="#ruta_de_aprendizaje" class="link_superior" title="Ruta de aprendizaje">Ruta de aprendizaje</a>
+                <a href="#ruta_de_aprendizaje_secundaria" class="link_superior" title="Cursos opcionales">Cursos opcionales</a>
                 <a href="../acerca_nosotros/index.php" class="link_superior" title="Acerca de">Acerca de</a>
                 <a href="../perfil/index.php" class="link_superior" title="Perfil">Perfil</a>
             </nav>
@@ -40,7 +40,7 @@
             <p class="descripcion">Aquí encontrarás todo lo necesario para seguir estudiando los temas de tu ingeniería que<br>
             no comprendas o no te queden claros a tu propio ritmo.</p>
         </div>
-        <h2>Ruta de aprendizaje principal</h2>
+        <h2 id="ruta_de_aprendizaje">Ruta de aprendizaje principal</h2>
         <div class="cursos_principales">
             <div class="curso_principal">
                 <a href="../cursos/cursos_principales/curso_html/index.php" title="Curso de HTML">Curso de <br>HTML</a>
@@ -60,7 +60,7 @@
             </div>
         </div>
         <!--QUEDA PENDIENTE -->
-        <h2>Ruta de aprendizaje secundaria</h2>
+        <h2 id="ruta_de_aprendizaje_secundaria">Ruta de aprendizaje secundaria</h2>
         <div class="cursos_secundarios">
             <div class="curso_secundario">
                 <a href="../cursos/cursos_complementarios/curso_ingles/index.php" title="Curso de inglés">Curso de <br>Inglés</a>

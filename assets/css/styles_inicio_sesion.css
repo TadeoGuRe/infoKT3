@@ -5,7 +5,11 @@ body {
     font-family: "Lora", serif;
     margin: 0;
 }
-
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+}
 /* header */
 header {
     display: flex;
@@ -55,6 +59,40 @@ input {
     background-color: white;
 }
 
-button {
-    
+.botoncito {
+    background-color: lightgrey;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.botoncito:hover {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.crear_cuenta {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-top: 124px;
+    padding-bottom: 10px;
 }

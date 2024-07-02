@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <!-- Hoja de estilo -->
-    <link rel="stylesheet" href="../../../../assets/css/styles_curso_por_asignatura.css?v=1.6">
+    <link rel="stylesheet" href="../../../../assets/css/styles_curso_por_asignatura.css?v=1.9">
     <title>Curso JavaScript</title>
 </head>
 
@@ -25,8 +25,8 @@
         </div>
         <div class="caja2">
             <nav class="caja3">
-                <a href="" class="link_superior">Ruta de aprendizaje</a>
-                <a href="" class="link_superior">Cursos opcionales</a>
+                <a href="../../../vista_principal/index.php#ruta_de_aprendizaje" class="link_superior">Ruta de aprendizaje</a>
+                <a href="../../../vista_principal/index.php#ruta_de_aprendizaje_secundaria" class="link_superior">Cursos opcionales</a>
                 <a href="../../../acerca_nosotros/index.php" class="link_superior">Acerca de</a>
                 <a href="../../../perfil/index.php" class="link_superior">Perfil</a>
             </nav>
@@ -46,85 +46,86 @@
         </div>
         <div class="clases_curso">
             <div class="leccion">
-                <p>Leccion 1</p>
+                <h2>Leccion 1</h2>
                 <a href="">Variables y constantes</a>
             </div>
             <div class="leccion">
-                <p>Leccion 2</p>
+                <h2>Leccion 2</h2>
                 <a href="">Tipos de valores</a>
             </div>
             <div class="leccion">
-                <p>Leccion 3</p>
+                <h2>Leccion 3</h2>
                 <a href="">Imprimir información en consola</a>
             </div>
             <div class="leccion">
-                <p>Leccion 4</p>
+                <h2>Leccion 4</h2>
                 <a href="">Cómo transformar un valor a otro</a>
             </div>
             <div class="leccion">
-                <p>Leccion 5</p>
+                <h2>Leccion 5</h2>
                 <a href="">Capturar información</a>
             </div>
             <div class="leccion">
-                <p>Leccion 6</p>
+                <h2>Leccion 6</h2>
                 <a href="">Operadores matemáticos</a>
             </div>
             <div class="leccion">
-                <p>Leccion 7</p>
+                <h2>Leccion 7</h2>
                 <a href="">Operadores de comparación</a>
             </div>
             <div class="leccion">
-                <p>Leccion 8</p>
+                <h2>Leccion 8</h2>
                 <a href="">Comentarios</a>
             </div>
             <div class="leccion">
-                <p>Leccion 9</p>
+                <h2>Leccion 9</h2>
                 <a href="">Condicionales básicos</a>
             </div>
             <div class="leccion">
-                <p>Leccion 10</p>
+                <h2>Leccion 10</h2>
                 <a href="">Condicional ternario</a>
             </div>
             <div class="leccion">
-                <p>Leccion 11</p>
+                <h2>Leccion 11</h2>
                 <a href="">Uso de switch</a>
             </div>
             <div class="leccion">
-                <p>Leccion 12</p>
+                <h2>Leccion 12</h2>
                 <a href="">Ciclo while</a>
             </div>
             <div class="leccion">
-                <p>Leccion 13</p>
+                <h2>Leccion 13</h2>
                 <a href="">Ciclo for</a>
             </div>
             <div class="leccion">
-                <p>Leccion 14</p>
+                <h2>Leccion 14</h2>
                 <a href="">Funciones y parámetros</a>
             </div>
             <div class="leccion">
-                <p>Leccion 15</p>
+                <h2>Leccion 15</h2>
                 <a href="">Funciones de flecha</a>
             </div>
             <div class="leccion">
-                <p>Leccion 16</p>
+                <h2>Leccion 16</h2>
                 <a href="">Return</a>
             </div>
             <div class="leccion">
-                <p>Leccion 17</p>
+                <h2>Leccion 17</h2>
                 <a href="">Arrays y modificaciones</a>
             </div>
             <div class="leccion">
-                <p>Leccion 18</p>
+                <h2>Leccion 18</h2>
                 <a href="">Clases</a>
             </div>
             <div class="leccion">
-                <p>Leccion 19</p>
+                <h2>Leccion 19</h2>
                 <a href="">Atributos</a>
             </div>
             <div class="leccion">
-                <p>Leccion 20</p>
+                <h2>Leccion 20</h2>
                 <a href="">Métodos</a>
             </div>
+
     </main>
     <footer>
         <div>

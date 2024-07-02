@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+    <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/styles_index.css" rel="stylesheet">
+    <!-- Preload -->
+    <link rel="preload" href="../../assets/css/normalize.css">
+    <!-- Normalizar -->
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <!-- Hoja de estilo -->
+    <link href="assets/css/styles_index.css?v=1.2" rel="stylesheet">
     <!-- Fuente insertada para logo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,17 +35,17 @@
         </div>
     </header>
     <main>
-        <p class="descripcion">Todo lo que necesitas saber<br> <span>para la ingeniería</span></p>
+        <h1 class="descripcion">Todo lo que necesitas saber<br> <span>para la ingeniería</span></h1>
         <div class="cursos_principales">
-            <p class="curso_principal">Curso de HTML</p>
-            <P class="curso_principal">Curso de CSS</P>
-            <p class="curso_principal">Curso de JavaScript</p>
-            <p class="curso_principal">Curso de SQL</p>
+            <h2 class="curso_principal"><a href="" id="html">Curso de HTML</a></h2>
+            <h2 class="curso_principal"><a href="" id="css">Curso de CSS</a></h2>
+            <h2 class="curso_principal"><a href="" id="javascript">Curso de JavaScript</a></h2>
+            <h2 class="curso_principal"><a href="" id="sql">Curso de SQL</a></h2>
         </div>
         <div class="cursos_complementarios">
-            <p class="curso_complementario">Curso de inglés</p>
-            <p class="curso_complementario">Curso de matemáticas</p>
-            <p class="curso_complementario">Curso de redes</p>
+            <h2 class="curso_complementario"><a href="" id="ingles">Curso de inglés</a></h2>
+            <h2 class="curso_complementario"><a href="" id="matematicas">Curso de matemáticas</a></h2>
+            <h2 class="curso_complementario"><a href="" id="redes">Curso de redes</a></h2>
         </div>
         <div class="integrantes_equipos">
             <div class="integrante">
@@ -67,7 +74,17 @@
         </div>
     </main>
     <footer>
-
+        <div>
+            <p>© Todos los derechos reservados</p>
+        </div>
+        <div>
+            <p>Adriel Isai Rodríguez Pacheco</p>
+            <p>Brian de Jesús Carpizo Fierro</p>
+        </div>
+        <div>
+            <p>Josue Anaya Canseco</p>
+            <p>Tadeo Esaú Gutiérrez Reyes</p>
+        </div>
     </footer>
 </body>
 

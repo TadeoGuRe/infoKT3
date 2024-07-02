@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="../../assets/css/styles_inicio_sesion.css">
-    <link rel="stylesheet" href="../../assets/css/styles_inicio_sesion.css">
+    <!-- Preload -->
+    <link rel="preload" href="../../assets/css/normalize.css">
+    <!-- Normalizar -->
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/styles_inicio_sesion.css?v=1.5">
     <!-- Fuente insertada para logo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,13 +35,27 @@
                 <br>
                 <input type="password" placeholder="Ahora tu contraseña" class="contraseña" required>
                 <br>
-                <button type="submit">Ingresar</button>
-                <a href="#">¿No tienes cuenta?</a>
+                <div class="botoncito_y_redireccion container">
+                    <button type="submit" class="botoncito">Ingresar</button>
+                    <div>
+                        <a href="#" class="crear_cuenta">¿No tienes cuenta?</a>
+                    </div>
+                </div>
             </form>
         </div>
     </main>
     <footer>
-
+        <div>
+            <p>© Todos los derechos reservados</p>
+        </div>
+        <div>
+            <p>Adriel Isai Rodríguez Pacheco</p>
+            <p>Brian de Jesús Carpizo Fierro</p>
+        </div>
+        <div>
+            <p>Josue Anaya Canseco</p>
+            <p>Tadeo Esaú Gutiérrez Reyes</p>
+        </div>
     </footer>
 </body>
 

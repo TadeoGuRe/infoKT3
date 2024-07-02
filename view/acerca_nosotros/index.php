@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preload -->
+    <link rel="preload" href="../../assets/css/normalize.css">
+    <!-- Normalizar -->
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <!-- Hoja de estilo -->
+    <link rel="stylesheet" href="../../assets/css/styles_inicio_sesion.css?v=1.3">
     <!-- Fuente insertada para logo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +31,8 @@
         </div>
         <div class="caja2">
             <nav class="caja3">
-                <a href="" class="link_superior">Ruta de aprendizaje</a>
-                <a href="" class="link_superior">Cursos opcionales</a>
+                <a href="../../view/vista_principal/index.php#ruta_de_aprendizaje_principal" class="link_superior">Ruta de aprendizaje</a>
+                <a href="../../view/vista_principal/index.php#ruta_de_aprendizaje_secundaria" class="link_superior">Cursos opcionales</a>
                 <a href="../acerca_nosotros/index.php" class="link_superior">Acerca de</a>
                 <a href="../perfil/index.php" class="link_superior">Perfil</a>
             </nav>
