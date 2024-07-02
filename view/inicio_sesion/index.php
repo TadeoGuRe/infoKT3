@@ -38,7 +38,7 @@
                 <div class="botoncito_y_redireccion container">
                     <button type="submit" class="botoncito">Ingresar</button>
                     <div>
-                        <a href="#" class="crear_cuenta">¿No tienes cuenta?</a>
+                        <a href="../crear_sesion/index.php" class="crear_cuenta">¿No tienes cuenta?</a>
                     </div>
                 </div>
             </form>
