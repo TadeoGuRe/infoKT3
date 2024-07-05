@@ -23,7 +23,7 @@ header {
 
 .nombre_logo {
     font-family: "Abril Fatface", serif;
-    margin: 0 0 0 10px;
+    margin: 15px 5px;
     font-size: 50px;
 }
 
@@ -43,6 +43,11 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+.caja3 a:hover{
+    background-color: white;
+    color: black;
 }
 
 a {
@@ -101,6 +106,14 @@ h2 {
     padding-top: 10px;
     font-size: 30px;
     border-radius: 5px;
+}
+
+.curso_principal:hover {
+    background-color: green;
+}
+
+.curso_secundario:hover {
+    background-color: green;
 }
 
 img {
